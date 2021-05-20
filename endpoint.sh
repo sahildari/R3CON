@@ -8,6 +8,6 @@ do
         mkdir -p endpoints/$domain
         for file in $(ls scriptsresponse/$domain)
         do
-                ruby /YOUR-PATH-TO-extract.rb scriptsresponse/$domain/$file >> endpoints/$domain/$file 
+                ruby extract.rb scriptsresponse/$domain/$file >> endpoints/$domain/$file 
         done
 done
