@@ -12,7 +12,9 @@ Prerequisites
 
 ## Usage
 
-> sudo bash subdomain.sh target.com
+```
+sudo bash subdomain.sh target.com
+```
 
 - It will create alive.txt and alive.json in which all the alive subdomains will be listed.
 - It will create headers directory to store the file by trying Open-redirect via `X-Forwarded-Host: evil.com` 
@@ -20,7 +22,7 @@ Prerequisites
 - It will create endpoints directories to store the intereting endpoints it will find.
 - After all this you can use your manual searching for the things you want(grep)
 
-## Example : 
+## Example for Manual searching : 
 - `grep -iErn 302` to search what subdomains encountered the redirection and then check those subdomains manually
 - `grep -iErn admin` 
 - `grep -iErn secret-key`
