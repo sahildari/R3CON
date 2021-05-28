@@ -5,7 +5,7 @@ These simple script will help you get all the subdomains and see all the alive s
 
 Prerequisites
 
-> - [Sublist3r](https://github.com/aboul3la/Sublist3r)
+> - [Subfinder](https://github.com/projectdiscovery/subfinder)
 > - [assetfinder](https://github.com/tomnomnom/assetfinder)
 > - [httprobe](https://github.com/tomnomnom/httprobe)
 > - [findomain](https://github.com/Findomain/Findomain)
