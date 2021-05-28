@@ -39,7 +39,7 @@ Happy Hacking!
 
 ## Acknowledgements
 
-R3CON framework have been created by using the open source security tools made by amazing security community -
+R3CON framework have been created by using the open source security tools made by these amazing OPEN SOURCE security community -
 
 > - [PROJECTDISCOVERY](https://github.com/projectdiscovery/)
 > - [TOMNOMNOM](https://github.com/tomnomnom/)
