@@ -41,6 +41,6 @@ Happy Hacking!
 
 R3CON framework have been created by using the open source security tools made by amazing security community -
 
-- > [PROJECTDISCOVERY](https://github.com/projectdiscovery/)
-- > [TOMNOMNOM](https://github.com/tomnomnom/)
-- > [FINDOMAIN](https://github.com/Findomain/)
+> - [PROJECTDISCOVERY](https://github.com/projectdiscovery/)
+> - [TOMNOMNOM](https://github.com/tomnomnom/)
+> - [FINDOMAIN](https://github.com/Findomain/)
