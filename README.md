@@ -14,11 +14,17 @@ Prerequisites
 
 ```
 git clone https://github.com/sahildari/R3CON
+```
 
+```
 cd R3CON
+```
 
+```
 chmod +x *.sh
+```
 
+```
 sudo bash subdomain.sh target.com
 ```
 
