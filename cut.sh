@@ -3,7 +3,7 @@ mkdir -p headers
 mkdir -p responsebody
 CURRENT_PATH=$(pwd)
 
-echo -ne "\n\n\e[32m Starting the cut.sh script now\n"
+echo -e "\n\n\e[32m Starting the cut.sh script now\n"
 
 for x in $(cat $1)
 do
@@ -17,4 +17,4 @@ do
         curl -s -X GET -H "X-Forwarded-For: evil.com" -L $x > "$CURRENT_PATH/responsebody/$NAME"
 done
 
-echo -ne "\n\n\e[32m Completed the execution of the cut.sh script now :)\n "
+echo -e "\n\n\e[32m Completed the execution of the cut.sh script now :)\n "
