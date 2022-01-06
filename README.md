@@ -1,5 +1,9 @@
 # R3CON
 
+[![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
+![GitHub issues](https://img.shields.io/github/issues/sahildari/R3CON)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sahildari/R3CON)
+
 We have created a bunch of shell scripts to help you up with your recon.
 These simple script will help you get all the subdomains and see all the alive subdomains out of all the subdomains we get.
 
