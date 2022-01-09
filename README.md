@@ -32,6 +32,9 @@ chmod +x *.sh
 sudo bash subdomain.sh target.com
 ```
 
+### Please specify the full path of extract.rb in [endpoint.sh](https://github.com/sahildari/R3CON/blob/main/endpoint.sh) 
+For example if you have cloned the [R3CON](https://github.com/sahildari/R3CON/) in your /opt/ directory then change the [11th line](https://github.com/sahildari/R3CON/blob/main/endpoint.sh#L11) to `ruby /opt/R3CON/extract.rb scriptsresponse/$domain/$file >> endpoints/$domain/$file` 
+
 - It will create alive.txt and alive.json in which all the alive subdomains will be listed.
 - It will create headers directory to store the file by trying Open-redirect via `X-Forwarded-Host: evil.com` 
 - It will create script and scriptresponse directories to store all the js files related to the target and subdomains of the target (Where all the gold relies).
