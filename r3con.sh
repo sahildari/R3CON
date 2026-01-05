@@ -25,7 +25,7 @@ echo -e "=======================================================================
 #calling jsfiles.sh
 
 echo -e "\n\n"
-echo -e "${YELLLOW}[+] Using the jsfiles.sh now .....${ENDCOLOR}"
+echo -e "${YELLOW}[+] Using the jsfiles.sh now .....${ENDCOLOR}"
 jsfiles.sh alive.txt
 
 echo -e "=================================================================================================="
@@ -36,6 +36,5 @@ echo -e "${YELLOW}[+] Using the endpoint.sh file now....${ENDCOLOR}"
 endpoint.sh alive.txt
 
 echo -e "=================================================================================================="
-
 
 echo -e "${GREEN}[+] EXECUTION COMPLETED ${ENDCOLOR}"
