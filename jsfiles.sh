@@ -2,12 +2,13 @@
 mkdir -p scripts
 mkdir -p scriptsresponse
 
-RED='\033[0;31m'
-NC='\033[0m'
+CYAN="\e[36m"
+ENDCOLOR="\e[0m"
+
 CUR_PATH=$(pwd)
 for x in $(ls "$CUR_PATH/responsebody")
 do
-        printf "\n\n${RED}$x${NC}\n\n"
+        printf "\n\n${CYAN}$x${ENDCOLOR}\n\n"
         END_POINTS=$(cat "$CUR_PATH/responsebody/$x" | grep -Eoi "src=\"[^>]+></script>" | cut -d '"' -f 2)
         for end_point in $END_POINTS
         do
