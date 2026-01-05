@@ -28,7 +28,7 @@ mkdir -p "$domainDirectory"
 
 dynamicDomainPath="$domainDirectory/$domainName.txt"
 sortedFilePath="$domainDirectory/$domainName-sorted.txt"
-alivePath="$domainDirectory/alive-$domainName.txt"
+alivePath="$domainDirectory/alive.txt"
 aliveJsonPath="$domainDirectory/alive-$domainName.json"
 domainJsonPath="$domainDirectory/domains-$domainName.json"
 

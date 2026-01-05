@@ -22,7 +22,7 @@ try {
     $domainJsonPath    = Join-Path -Path $domainDirectory -ChildPath "domains-$domainName.json"
     $dynamicDomainPath = Join-Path -Path $domainDirectory -ChildPath "$domainName.txt"
     $sortedFilePath    = Join-Path -Path $domainDirectory -ChildPath "$domainName-sorted.txt"
-    $alivePath         = Join-Path -Path $domainDirectory -ChildPath "alive-$domainName.txt"
+    $alivePath         = Join-Path -Path $domainDirectory -ChildPath "alive.txt"
     $aliveJsonPath     = Join-Path -Path $domainDirectory -ChildPath "alive-$domainName.json"
 
     if ((Test-Path -Path $dynamicDomainPath) -and (Test-Path -Path $domainPath)) {

@@ -6,13 +6,20 @@ GREEN="\e[32m"
 YELLOW="\e[33m"
 RED="\e[31m"
 
-echo -e "${CYAN}=================================================================================================="
-echo -e "${CYAN}======================== WELCOME TO R3CON AUTOMATION SCRIPT ========================${ENDCOLOR}"
+set -euo pipefail
+if [[ $# -ne 1 ]]; then
+  echo -e "${RED}[!] Usage: $0 <domain_name>${ENDCOLOR}"
+  exit 1
+fi
+
+echo -e "${CYAN}==================================================================================================${ENDCOLOR}"
+echo -e "${CYAN}======================== WELCOME TO R3CON AUTOMATION SCRIPT ======================================${ENDCOLOR}"
 echo -e "${CYAN}==================================================================================================${ENDCOLOR}"
 #calling subdomain-enum.sh
 echo -e "\n\n"
 echo -e "${YELLOW}[+] Using the subdomain-enum.sh now.....${ENDCOLOR}"
 subdomain-enum.sh "$1"
+cd "$1" 
 
 echo -e "=================================================================================================="
 #calling cut.sh
