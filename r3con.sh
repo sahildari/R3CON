@@ -19,28 +19,27 @@ echo -e "${CYAN}================================================================
 echo -e "\n\n"
 echo -e "${YELLOW}[+] Using the subdomain-enum.sh now.....${ENDCOLOR}"
 subdomain-enum.sh "$1"
-cd "$1" 
 
 echo -e "=================================================================================================="
 #calling cut.sh
 
 echo -e "\n\n"
 echo -e "${YELLOW}[+] Using cut.sh now.....${ENDCOLOR}"
-cut.sh alive.txt
+cut.sh $1/alive.txt
 
 echo -e "=================================================================================================="
 #calling jsfiles.sh
 
 echo -e "\n\n"
 echo -e "${YELLOW}[+] Using the jsfiles.sh now .....${ENDCOLOR}"
-jsfiles.sh alive.txt
+jsfiles.sh $1/alive.txt
 
 echo -e "=================================================================================================="
 #calling endpoint.sh 
 
 echo -e "\n\n"
 echo -e "${YELLOW}[+] Using the endpoint.sh file now....${ENDCOLOR}"
-endpoint.sh alive.txt
+endpoint.sh $1/alive.txt
 
 echo -e "=================================================================================================="
 
