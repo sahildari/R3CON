@@ -29,7 +29,7 @@ chmod +x *.sh
 ```
 
 ```
-sudo bash subdomain.sh target.com
+./subdomain-enum.sh target.com
 ```
 
 ### Please specify the full path of extract.rb in [endpoint.sh](https://github.com/sahildari/R3CON/blob/main/endpoint.sh) 

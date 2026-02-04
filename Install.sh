@@ -25,6 +25,7 @@ else
 
   echo -e "${GREEN}[+] Installing Httprobe.${ENDCOLOR}"
   go install -v github.com/tomnomnom/httprobe@latest
+  echo -e "${YELLOW}[+] For Installing Findomain. follow the installation instructions on the findomain repo, as Admin/sudo privileged may be required for adding the binary to PATH.${ENDCOLOR}"
 fi
 
 echo -e "${GREEN}[+] All tools installed successfully.${ENDCOLOR}"
