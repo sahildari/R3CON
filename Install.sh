@@ -7,7 +7,7 @@ YELLOW="\e[33m"
 RED="\e[31m"
 
 set -euo pipefail
-if [[ ! go version >/dev/null 2>&1 ]]; then
+if ! command -v go >/dev/null 2>&1; then
   echo -e "${RED}[!] Golang is not installed. Please install Golang to proceed.${ENDCOLOR}"
   exit 1
 else
