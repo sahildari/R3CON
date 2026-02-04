@@ -14,8 +14,11 @@ else
   echo -e "${GREEN}[+] Installing Subfinder.${ENDCOLOR}"
   go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
-  echo -e "${GREEN}[+] Installing Findomain.${ENDCOLOR}"
-  go install -v github.com/projectdiscovery/findomain/cmd/findomain@latest
+  # echo -e "${GREEN}[+] Installing Findomain.${ENDCOLOR}"
+  # curl -LO https://github.com/findomain/findomain/releases/latest/download/findomain-linux.zip
+  # unzip findomain-linux.zip;cd findomain-linux
+  # chmod +x findomain
+  # sudo mv findomain /usr/bin/findomain
 
   echo -e "${GREEN}[+] Installing Assetfinder.${ENDCOLOR}"
   go install -v github.com/tomnomnom/assetfinder@latest
